@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smashburger-inspired responsive restaurant website project.">
+  <title>Smashburger | Belief Is in the Bite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Smashburger home">
+        <span class="brand-white">SMASH</span>
+        <span class="brand-red">BURGER<sup>®</sup></span>
+        <small>BELIEF IS IN THE BITE™</small>
+      </a>
+
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#menu">Menu</a>
+        <a href="#rewards">SmashRewards</a>
+        <a href="#gift-cards">Gift Cards</a>
+        <a href="#deals">Deals</a>
+        <a href="#catering">Catering</a>
+        <a href="#locations">Locations</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="sign-in" href="#rewards">Sign In</a>
+        <a class="cart" href="#menu" aria-label="Shopping cart">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 5h4l3.2 16.2h15.5l3-11.5H9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12.5" cy="26.5" r="1.8" fill="currentColor"/><circle cx="24" cy="26.5" r="1.8" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="order-bar">
+      <a href="#locations" class="location-link"><span class="pin">●</span> Choose a location to order</a>
+      <a href="#locations" class="order-button">Order Now</a>
+    </section>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="hero-kicker">The proof is in the bite</p>
+          <h1><span>New York’s favorite</span><span>flavor.</span><strong>Smashed</strong></h1>
+          <a class="primary-button" href="#menu">Discover the latest smash</a>
+        </div>
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1300&q=88" alt="Juicy double cheeseburger with melted cheese and fresh toppings">
+          <div class="image-stamp">BELIEF<br><span>IS IN</span><br>THE BITE</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="strip-card">
+        <div class="strip-item"><span class="strip-icon">✦</span><strong>Made fresh</strong><small>Every order, every time</small></div>
+        <div class="strip-item"><span class="strip-icon">★</span><strong>Smashed to order</strong><small>That signature crispy edge</small></div>
+        <div class="strip-item"><span class="strip-icon">♥</span><strong>Full of flavor</strong><small>Big taste in every bite</small></div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">Find your new favorite</p>
+        <h2>Explore the menu</h2>
+        <p>Big, bold flavor is always on the menu. Find your next favorite and make it a smash.</p>
+      </div>
+      <div class="menu-grid">
+        <a class="menu-card" href="#deals">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80" alt="" onerror="this.src='https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80'">
+          <h3>Smashburgers</h3><span class="card-arrow">↗</span>
+        </a>
+        <a class="menu-card" href="#deals">
+          <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=80" alt="Crispy golden fries">
+          <h3>Sides</h3><span class="card-arrow">↗</span>
+        </a>
+        <a class="menu-card" href="#deals">
+          <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=80" alt="Creamy milkshake">
+          <h3>Shakes</h3><span class="card-arrow">↗</span>
+        </a>
+        <a class="menu-card" href="#deals">
+          <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=700&q=80" alt="Crispy chicken sandwich">
+          <h3>Chicken</h3><span class="card-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="craft-section" id="deals">
+      <div class="craft-photo">
+        <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=1200&q=85" alt="Freshly prepared cheeseburger">
+      </div>
+      <div class="craft-copy">
+        <p class="eyebrow">A better burger starts here</p>
+        <h2>It’s all about<br><span>the smash.</span></h2>
+        <p>Fresh ingredients meet a sizzling-hot grill. Every burger is smashed to create a deliciously crisp edge and a juicy, flavor-packed center.</p>
+        <a href="#menu" class="primary-button">Explore the menu</a>
+      </div>
+    </section>
+
+    <section class="rewards-section" id="rewards">
+      <div>
+        <p class="eyebrow">Good taste gets rewarded</p>
+        <h2>Join the<br>smash squad.</h2>
+        <p>Sign up for SmashRewards and get more out of every visit. Earn points, find special offers and enjoy your favorites.</p>
+        <a href="#locations" class="dark-button">Join SmashRewards</a>
+      </div>
+      <div class="rewards-art"><span>SMASH<br>MORE.<br><b>GET REWARDED.</b></span></div>
+    </section>
+
+    <section class="section extras" id="gift-cards">
+      <div class="section-heading">
+        <p class="eyebrow">More to love</p>
+        <h2>Make it a smash.</h2>
+      </div>
+      <div class="extra-grid">
+        <article class="extra-card catering" id="catering">
+          <div><p class="eyebrow">Bring everyone together</p><h3>Make your next event a smash.</h3><a href="#locations">Explore catering ↗</a></div>
+        </article>
+        <article class="extra-card gift" id="locations">
+          <div><p class="eyebrow">Give the gift of great taste</p><h3>Burger fans know what’s good.</h3><a href="#gift-cards">Explore gift cards ↗</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="#home"><span class="brand-white">SMASH</span><span class="brand-red">BURGER<sup>®</sup></span><small>BELIEF IS IN THE BITE™</small></a>
+      <div><h4>Explore</h4><a href="#menu">Menu</a><a href="#rewards">SmashRewards</a><a href="#gift-cards">Gift Cards</a></div>
+      <div><h4>More</h4><a href="#catering">Catering</a><a href="#locations">Locations</a><a href="#deals">Deals</a></div>
+      <div><h4>Connect</h4><a href="#home">Contact Us</a><a href="#home">Careers</a><a href="#home">Privacy Policy</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Smashburger-inspired student project.</span><span>Made for the love of the smash.</span></div>
+  </footer>
+</body>
+</html>
